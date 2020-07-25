@@ -1,20 +1,19 @@
 /*silliness for squashed screen*/
 
-
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 390px) {
     body {
-        background-image: url("batmanwalls1.jpg");
+        background-image: url("assets/batmanwalls1.jpg");
     }
 }
 
 @media screen and (max-width: 225px) {
     body {
-        background-image: url("batmanwalls2.jpg");
+        background-image: url("assets/batmanwalls2.jpg");
     }
 }
 
 @media screen and (max-width: 150px) {
     body {
-        background-image: url("batman.jpg");
+        background-image: url("assets/batmanwalls3.jpg");
     }
 }
