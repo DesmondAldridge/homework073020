@@ -1,4 +1,4 @@
-/*silliness for squashed screen*/
+/* silliness for squashed screen */
 
 @media screen and (max-width: 390px) {
     body {
@@ -16,4 +16,31 @@
     body {
         background-image: url("assets/batmanwalls3.jpg");
     }
+}
+
+/* background for navbar and... make it glow... */
+
+#navbar {
+    background-image: url("assets/footer-background.jpg");
+    background-size: cover;
+    color: rgb(22, 11, 114);
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bolder;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1700e6, 0 0 40px #1700e6, 0 0 50px #1700e6, 0 0 60px #1700e6, 0 0 70px #1700e6;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #24abc0, 0 0 40px #24abc0, 0 0 50px #24abc0, 0 0 60px #24abc0, 0 0 70px #24abc0, 0 0 80px #24abc0;
+    }
+}
+
+body {
+    background-image: url("assets/body-background.jpg");
+    background-size: cover;
 }
