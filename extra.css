@@ -21,7 +21,7 @@
 /* background for navbar and... make it glow... */
 
 #navbar {
-    background-image: url("assets/footer-background.jpg");
+    background-image: url("assets/background.gif");
     background-size: cover;
     color: rgb(22, 11, 114);
     text-align: center;
@@ -41,6 +41,6 @@
 }
 
 body {
-    background-image: url("assets/body-background.jpg");
+    background-image: url("assets/background.gif");
     background-size: cover;
 }
