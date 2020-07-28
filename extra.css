@@ -4,25 +4,21 @@ body {
     background-image: url("assets/background.gif");
     background-size: cover;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aquamarine;
+    text-shadow: 2px 2px blue;
 }
 
-/* background for navbar and... make it glow... */
+/*Background for navbar and... make it glow...*/
 
 #navbar {
     background: transparent;
     background-size: inherit;
-    margin: 0%;
-    padding: 0%;
     color: rgb(14, 195, 219);
     text-align: center;
     font-family: fantasy;
     font-weight: bolder;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
-}
-
-button {
-    background-image: url("assets/button-background.gif");
 }
 
 @-webkit-keyframes glow {
@@ -34,25 +30,22 @@ button {
     }
 }
 
-/* making sure the below elements are transparant, obviously to ensure the background is visible */
-/* also taking redundant measures in ensuring a uniform font */
+/*To fix the dropdown menu's icon's size*/
 
+img.animated-gif {
+    width: 20px;
+    height: auto;
+    float: inherit;
+  }
+
+/*Making sure the below elements are transparant, obviously to ensure the background is visible*/
+/*Also taking redundant measures in ensuring a uniform font*/
 
 header {
     background: transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0%;
     margin: 0%;
-}
-
-.jumbotron {
-    background: transparent;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.jumbotron-fluid{
-    background: transparent;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
@@ -63,13 +56,21 @@ h1 {
     text-shadow: 2px 2px 3px blue;
 }
 
-/* beginning of the content */
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color:aquamarine;
+    text-shadow: 2px 2px 3px blue;
+}
+
+/*Beginning of the content*/
 
 article {
     background-image: url("assets/article-background.gif");
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
-    text-shadow: 2px 2px darkcyan;
+    color:aquamarine;
+    text-shadow: 2px 2px blue;
 }
 
 p {
@@ -78,25 +79,35 @@ p {
     text-shadow: 2px 2px blue;
 }
 
-/* media queries */
-
-/* silliness for squashed screen */
+/*Nedia queries... silliness for squashed screen*/
 
 @media screen and (max-width: 390px) {
     body {
         background-image: url("assets/batmanwalls1.jpg");
+        width: auto;
+        height: auto;
+        float: right;
+        background-repeat: no-repeat;
     }
 }
 
 @media screen and (max-width: 225px) {
     body {
         background-image: url("assets/batmanwalls2.jpg");
+        width: auto;
+        height: auto;
+        float: right;
+        background-repeat: no-repeat;
     }
 }
 
 @media screen and (max-width: 150px) {
     body {
         background-image: url("assets/batmanwalls3.jpg");
+        width: auto;
+        height: auto;
+        float: right;
+        background-repeat: no-repeat;
     }
 }
 
