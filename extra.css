@@ -103,39 +103,15 @@ p {
     margin-top: 10%;
 }
 
-/*Styling for the contact form*/
+/*Contact form header alignment touchup*/
+#contactHeading {
+    padding-right: 36%;
+    padding-top: 7%;
+}
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical
-  }
-  
-  /*Styling for the submit button specifically*/
-  input[type=submit] {
-    background-color: aquamarine;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: aqua;
-  }
-  
-  /* Add a background color and some padding around the form */
-  section {
-    border-radius: 5px;
-    background-image: url("assets/article-background.gif");
-    padding: 20px;
-  }
+#contactHeading2 {
+    padding-right: 36%;
+}
 
 /*Media queries*/
 
