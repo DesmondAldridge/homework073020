@@ -55,7 +55,7 @@
         <div class="col-sm-8">
                 <div class="container">
                     <h1 class="display-4"><center>Desmond Aldridge</center></h1>
-                    <h2 class="lead"><center>...the coding student</center></h2>
+                    <h2 class="lead"><center>... the addressable contactee</center></h2>
                 </div>
         </div>    
 
@@ -67,26 +67,33 @@
 
     </header>
 
-<!--This here is the bulk of this page, what might traditionally referred to as 'the body'-->
+<!--Contact Form-->
 
-    <article class="row">
-        <div class="col-sm">
-            <p><br></p>
-            <p>Desmond is excited to embrace this new chapter in life, learning to become a fullstack developer. Having</P>
-            <p>learned HTML at the age of 13 through chatrooms (and eventually myspace), Desmond went on to take</p> 
-            <p>an HTML and two C++ courses in high-school.</p>
-            <br>
-            <img src="assets/teendes.jpg" id="teenDes">
-            <p>Desmond would not pursue coding and software development in college however, as he pursued his passion in theater and story-telling, and went on to be an actor and live show performer. Over the years he's performed domestically and abroad on stage and film.</p> 
-            <br>
-            <p>Often thinking back to his teenage interest in coding (and linguistics in his 20s) the perfect storm of being an out of work entertainer, in quarantine, enjoying producing digital content, as well as a general nostalgic sentiment towards coding in his teens, Desmond lept at the opportunity to formerly train as a developer.</p>
-            <br>
-            <br>
-            <p>Desmond is of course thrilled to see where this new career path will lead, and how it could potentially enhance and incorporate his creative and artistic leanings. Thanks for reading! More content coming soon!</p>
-            <br>
-            <br>
-        </div>
-    </article>
+    <section class="row">
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

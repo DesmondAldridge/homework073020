@@ -63,7 +63,6 @@ h2 {
     text-shadow: 2px 2px 3px blue;
 }
 
-/*Giving the photo positioned under the navbar correctly, and (discovered through a happy accident) giving it a hovering overly effect with the top of the article*/
 
 .col-sm-4 {
     width: 100px;
@@ -84,7 +83,59 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:aquamarine;
     text-shadow: 2px 2px blue;
+    font-size: medium;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 2%;
 }
+
+/*Aligning the photo that appears in the homepage's article*/
+#teenDes {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding-right: 1%;
+    padding-left: 2%;
+}
+
+/*Aligning the blurb in the 'ABOUT' section*/
+#aboutArticle {
+    margin-top: 10%;
+}
+
+/*Styling for the contact form*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+  
+  /*Styling for the submit button specifically*/
+  input[type=submit] {
+    background-color: aquamarine;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: aqua;
+  }
+  
+  /* Add a background color and some padding around the form */
+  section {
+    border-radius: 5px;
+    background-image: url("assets/article-background.gif");
+    padding: 20px;
+  }
 
 /*Media queries*/
 
@@ -102,12 +153,13 @@ p {
     }    
 }
 
+/*Silliness for a completely squashed screen. Was supposed to be a humorous easter egg, but I never got it looking to my satisfaction so I'm just commenting it out for now*/
 
-@media screen and (max-width: 350px) {
+/*@media screen and (max-width: 350px) {
     body {
         background-image: url("assets/batmanwalls1.jpg");
-        width: auto;
-        height: auto;
+        width: 65;
+        height: 50;
         float: right;
         background-repeat: no-repeat;
     }
@@ -116,8 +168,8 @@ p {
 @media screen and (max-width: 225px) {
     body {
         background-image: url("assets/batmanwalls2.jpg");
-        width: auto;
-        height: auto;
+        width: 65;
+        height: 50;
         float: right;
         background-repeat: no-repeat;
     }
@@ -126,10 +178,10 @@ p {
 @media screen and (max-width: 150px) {
     body {
         background-image: url("assets/batmanwalls3.jpg");
-        width: auto;
-        height: auto;
+        width: 65;
+        height: 50;
         float: right;
         background-repeat: no-repeat;
     }
-}
+}*/
 
