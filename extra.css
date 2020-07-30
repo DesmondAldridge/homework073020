@@ -33,10 +33,13 @@ body {
 /*To fix the dropdown menu's icon's size*/
 
 img.animated-gif {
-    width: 20px;
+    width: 30px;
     height: auto;
-    float: inherit;
-  }
+}
+
+ul {
+    margin-left: 60%;
+}
 
 /*Making sure the below elements are transparant, obviously to ensure the background is visible*/
 /*Also taking redundant measures in ensuring a uniform font*/
@@ -50,19 +53,23 @@ header {
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    font-size: xx-large;
     color:aquamarine;
     text-shadow: 2px 2px 3px blue;
 }
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    font-size: larger;
     color:aquamarine;
     text-shadow: 2px 2px 3px blue;
 }
+
+/*Giving the photo positioned under the navbar correctly, and (discovered through a happy accident) giving it a hovering overly effect with the top of the article*/
+
+.col-sm-4 {
+    width: 100px;
+    height: 100px;
+}
+
 
 /*Beginning of the content*/
 
@@ -79,9 +86,24 @@ p {
     text-shadow: 2px 2px blue;
 }
 
-/*Nedia queries... silliness for squashed screen*/
+/*Media queries*/
 
-@media screen and (max-width: 390px) {
+/*Making the breakpoints of the header folder and navbar are uniform, so there's not a disparate range of width where the former element (and its link) is(are) missing completely*/
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        display: none
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #hiddenLink {
+        visibility: hidden;
+    }    
+}
+
+
+@media screen and (max-width: 350px) {
     body {
         background-image: url("assets/batmanwalls1.jpg");
         width: auto;
