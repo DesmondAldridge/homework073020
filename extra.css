@@ -100,6 +100,7 @@ p {
 
 /*Aligning the blurb in the 'ABOUT' section*/
 #aboutArticle {
+    background: transparent;
     margin-top: 10%;
 }
 
@@ -111,6 +112,16 @@ p {
 
 #contactHeading2 {
     padding-right: 36%;
+}
+
+/*portfolio header alignment touchup*/
+#portfolioheader {
+    padding-top: 10%;
+}
+
+#carouselExampleControls {
+    width: 35%;
+    height: 20%;
 }
 
 /*Media queries*/
